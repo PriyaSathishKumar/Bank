@@ -17,7 +17,7 @@ import javax.persistence.*;
 public class Customer {
     @Id
     @GeneratedValue
-    int accNumber;
+    int accnumber;
     String custName;
     int panCardNo;
 }
